@@ -5,4 +5,46 @@ body {
 h1, h2, h3 {
   font-family: "Playfair Display";
   letter-spacing: 5px;
+ 
 }
+
+h1{
+    text-align: center;
+}
+h3{
+    text-align: left;
+}
+
+img.Love{
+    float: center;
+    margin-right: 15px;
+}
+
+body{
+    background-color: rgb(255, 0, 119);
+    color: rgb(255, 255, 255);
+}
+.footer {
+    margin: 50%;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+ul, ol{
+    list-style-position: inside;
+    text-align: left;
+}
+
+
+.flex-item{
+    background-color: black;
+    color:#f1f1f1;
+    flex: 1;
+}
+.flex-item:hover{
+    background-color: pink;
+    flex-basis: 0 0 10px;
+    cursor: pointer;
+
+    }
+
